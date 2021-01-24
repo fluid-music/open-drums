@@ -1,7 +1,5 @@
 # @fluid-music/707
 
-`npm install @fluid-music/707`
-
 Free 707 drum sample library packaged for [`fluid-music`](https://www.npmjs.com/package/fluid-music).
 
 Samples originally downloaded from [machines.hyperreal.org](http://machines.hyperreal.org/categories/drum-machines/TR-808/samples/).
