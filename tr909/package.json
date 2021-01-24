@@ -1,0 +1,23 @@
+{
+  "name": "@fluid-music/tr-909",
+  "version": "0.0.1",
+  "description": "free 909 sample library packged for fluid-music",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CharlesHolbrow/open-drums.git"
+  },
+  "keywords": [
+    "fluid-music",
+    "drums"
+  ],
+  "author": "Charles Holbrow",
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/CharlesHolbrow/open-drums/issues"
+  },
+  "homepage": "https://github.com/CharlesHolbrow/open-drums#readme"
+}
