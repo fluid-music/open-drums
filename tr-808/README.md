@@ -8,4 +8,4 @@ Samples originally downloaded from [machines.hyperreal.org](http://machines.hype
 
 ## License
 
-The original audio files were recorded by Michael Fischer (fischer1@student.msu.edu), who included a [.TXT](./TR808WAV/TR808.TXT) with detailed information about the samples, and no licensing restrictions.
+The original audio files were recorded by Michael Fischer (fischer1@student.msu.edu), who included a [.TXT](https://github.com/fluid-music/open-drums/blob/main/tr-808/TR808WAV/TR808.TXT) with detailed information about the samples, and no licensing restrictions.
