@@ -8,7 +8,7 @@ const params = {
 
 const paramsHiHat = {
   ...params,
-  gainDb = -9,
+  gainDb : -9,
 }
 
 /**
