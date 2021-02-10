@@ -42,5 +42,6 @@ const bass = {
 module.exports = {
   audioFiles,
   tLibrary,
+  kit: tLibrary,
   bass,
 }
