@@ -1,27 +1,24 @@
-const { techniques } = require('fluid-music')
+const { techniques, AudioFileMode } = require('fluid-music')
 const audioFiles = require('./audio-files')
 
-// The kick drum is tuned to approximately 49.64 hz (~22.35 cents sharp of G1).
-// While the kick is sampled at multiple 'tuning' settings, these 'tuning'
-// parameter on the tr-808 primarily affects the attack portion of the sound
-// and does not noticeably affect pitching during the sustain portion of the
-// sound.
-
 const copy = techniques.AudioFile.copy
+const params = {
+  mode: AudioFileMode.OneVoice,
+}
 
 /**
  * This curated subset of the tr-808 kit
  */
 const kit = {
-  B: copy(audioFiles.TR808WAV.BD['BD0050.WAV']),  // less click, longer sustain
-  b: copy(audioFiles.TR808WAV.BD['BD5025.WAV']),  // more click, short sustain
-  h: copy(audioFiles.TR808WAV.CH['CH.WAV']),      // closed hat
-  H: copy(audioFiles.TR808WAV.OH['OH75.WAV']),    // open hat
-  k: copy(audioFiles.TR808WAV.SD['SD2525.WAV']),  // short snare
-  K: copy(audioFiles.TR808WAV.SD['SD2510.WAV']),  // long snare
-  p: copy(audioFiles.TR808WAV.CL['CL.WAV']),      // clap 👏
-  '👏': copy(audioFiles.TR808WAV.CL['CL.WAV']),   // emoji clap
-  w: copy(audioFiles.TR808WAV.CB['CB.WAV'])       // cowbell
+  B: copy(audioFiles.TR808WAV.BD['BD0050.WAV'], params),  // less click, longer sustain
+  b: copy(audioFiles.TR808WAV.BD['BD1025.WAV'], params),  // more click, short sustain
+  h: copy(audioFiles.TR808WAV.CH['CH.WAV'], params),      // closed hat
+  H: copy(audioFiles.TR808WAV.OH['OH75.WAV'], params),    // open hat
+  k: copy(audioFiles.TR808WAV.SD['SD2525.WAV'], params),  // short snare
+  K: copy(audioFiles.TR808WAV.SD['SD2510.WAV'], params),  // long snare
+  p: copy(audioFiles.TR808WAV.CP['CP.WAV'], params),      // clap 👏
+  '👏': copy(audioFiles.TR808WAV.CP['CP.WAV'], params),   // emoji clap
+  w: copy(audioFiles.TR808WAV.CB['CB.WAV'], params)       // cowbell
 }
 
 /**
@@ -38,8 +35,8 @@ const kit = {
  * tuned bass sound at approximately 49hz.
  */
 const bass = {
-  G: copy(audioFiles.TR808WAV.BDTuned['BD0010-g1.wav']), // minimal click
-  g: copy(audioFiles.TR808WAV.BDTuned['BD2510-g1.wav']), // some click
+  G: copy(audioFiles.TR808WAV.BDTuned['BD0010-g1.wav'], { fadeOutSeconds: 0.065 }), // minimal click
+  g: copy(audioFiles.TR808WAV.BDTuned['BD2510-g1.wav'], { fadeOutSeconds: 0.065 }), // some click
 }
 
 module.exports = {
