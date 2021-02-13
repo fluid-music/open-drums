@@ -1,3 +1,6 @@
+// legacy code
+// TODO: adapt to currrent codebase
+
 const fs = require('fs');
 const files = require('./files').sort((a,b) => a.localeCompare(b));
 
