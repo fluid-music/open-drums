@@ -1,4 +1,4 @@
-# @fluid-music/808
+# TR-808 samples, packaged for fluid-music
 
 `npm install @fluid-music/tr-808`
 

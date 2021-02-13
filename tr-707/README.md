@@ -1,4 +1,4 @@
-# @fluid-music/tr-707
+# TR-707 samples, packaged for fluid-music
 
 Free 707 drum sample library packaged for [`fluid-music`](https://www.npmjs.com/package/fluid-music).
 

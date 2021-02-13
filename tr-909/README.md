@@ -1,4 +1,4 @@
-# @fluid-music/tr-909
+# TR-909 samples, packaged for fluid-music
 
 `npm install @fluid-music/tr-909`
 
