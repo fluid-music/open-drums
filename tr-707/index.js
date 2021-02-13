@@ -9,5 +9,6 @@ const tLibrary = {
 };
 
 module.exports = {
-  tLibrary
+  tLibrary,
+  kit: tLibrary,
 };
