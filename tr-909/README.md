@@ -4,9 +4,27 @@
 
 Free 909 drum sample library packaged for [`fluid-music`](https://www.npmjs.com/package/fluid-music).
 
-Samples originally downloaded from [machines.hyperreal.org](http://machines.hyperreal.org/categories/drum-machines/TR-909/samples/).
+```JavaScript
+const tr909 = require('@fluid-music/tr-909')
+tr909.kit  // a drum technique library
+```
+
+## The `tr909.kit` Technique Library
+
+The `tr909.kit` technique library contains the following drum sample audio file techniques:
+
+* `B` - lower pitch
+* `b` - higher pitch
+* `h` - closed hat
+* `H` - open hat
+* `k` - short snare
+* `K` - long snare
+* `p` - clap 👏
+* `👏` - clap (same as `p`)
 
 ## License
+
+The samples were downloaded from [machines.hyperreal.org](http://machines.hyperreal.org/categories/drum-machines/TR-909/samples/).
 
 The original audio files were recorded by Jason Baker / Rob Roy Recordings 
 (bake0028@gold.tc.umn.edu). These files came bundled with a `.txt` file that included the text below.
