@@ -19,7 +19,7 @@ In Open Drums, all drum sounds are mapped to one character. Case matters, you ca
 
 ## Example
 
-This is what two measures of snare, kick, and tambourine transcribed with 'fluid-music' look like:
+This is what two measures of snare, kick, and hi-hat transcribed with 'fluid-music' look like:
 
 ```javascript
 const score = {
@@ -35,12 +35,8 @@ Here, we have 4 tracks, the first one is the rhythm string, notated with 'r', an
 For more info https://github.com/fluid-music/fluid-music/blob/main/docs/concepts.md#rhythm-string
 
 
-    why onomatopeic?
-    etc.
-
-
-* B: less click, longer sustain
-* b: more click, short sustain
+* B: Bass drum - less click, longer sustain
+* b: Bass drum - more click, short sustain
 * h: closed hat
 * H: open hat
 * k: short snare
