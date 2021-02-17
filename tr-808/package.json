@@ -11,7 +11,8 @@
     "url": "git+https://github.com/fluid-music/open-drums.git"
   },
   "keywords": [
-    "fluid-music"
+    "fluid-music",
+    "drums"
   ],
   "author": "Charles Holbrow",
   "license": "ISC",
