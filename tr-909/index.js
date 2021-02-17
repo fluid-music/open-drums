@@ -2,6 +2,7 @@ const { techniques, AudioFileMode } = require('fluid-music')
 const audioFiles = require('./audio-files')
 
 const copy = techniques.AudioFile.copy
+
 const params = {
   mode: AudioFileMode.OneVoice,
 }

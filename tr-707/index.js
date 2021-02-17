@@ -1,17 +1,7 @@
 const audioFiles = require("./audio-files.js");
 
-/*
-* B: Bass drum - less click, longer sustain
-* b: Bass drum - more click, short sustain
-* h: closed hat
-* H: open hat
-* k: short snare
-* K: long snare
-* p: clap 👏
-* '👏':emoji clap
-*/
 
-const tLibrary = {
+const kit = {
   B: audioFiles["BassDrum1.wav"], // Kick with slightly less click
   b: audioFiles["BassDrum2.wav"], // Kick with slightly more click
   k: audioFiles["Snare1.wav"],    // Snare (slightly brighter)
@@ -29,6 +19,6 @@ const tLibrary = {
 
 module.exports = {
   audioFiles,
-  tLibrary,
-  kit: tLibrary,
+  tLibrary: kit,
+  kit,
 };
