@@ -1,17 +1,12 @@
 # Open Drums For Fluid Music
 
-This repo contains a collection of drum sample libraries packaged for the fluid-music system.
+This repo contains a collection of drum sample libraries packaged for the fluid-music system. All packages are available via npm:
 
-## About
+- `npm i` [`@fluid-music/tr-707`](https://www.npmjs.com/package/@fluid-music/tr-707)
+- `npm i` [`@fluid-music/tr-808`](https://www.npmjs.com/package/@fluid-music/tr-808)
+- `npm i` [`@fluid-music/tr-909`](https://www.npmjs.com/package/@fluid-music/tr-909)
 
-This repository holds 3 different npm packages, which you can install with 
-
-```bash
-npm install @fluid-music/tr-707
-npm install @fluid-music/tr-808
-npm install @fluid-music/tr-909
-```
-
+The samples are originally came from [machines.hyperreal.org](http://machines.hyperreal.org/).
 
 ## Notation
 

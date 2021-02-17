@@ -20,3 +20,9 @@ The original audio files were recorded by Jason Baker / Rob Roy Recordings
 > tape or dat.  Have fun!
 
 See [TR909SET.TXT](./TR909all/TR909SET.TXT) for the full text.
+
+## Other Open Drum Packages
+
+See [fluid-music/open-drums](https://github.com/fluid-music/open-drums/) on github for other drum packages.
+
+Or [search npm for `fluid-music`](https://www.npmjs.com/search?q=fluid-music).

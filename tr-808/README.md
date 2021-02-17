@@ -38,3 +38,9 @@ The bass drum sound on the original TR-808 drum machine had an adjustable decay.
 Samples originally downloaded from [machines.hyperreal.org](http://machines.hyperreal.org/categories/drum-machines/TR-808/samples/).
 
 The original audio files were recorded by Michael Fischer (fischer1@student.msu.edu), who included a [.TXT](https://github.com/fluid-music/open-drums/blob/main/tr-808/TR808WAV/TR808.TXT) with detailed information about the samples, and no licensing restrictions.
+
+## Other Open Drum Packages
+
+See [fluid-music/open-drums](https://github.com/fluid-music/open-drums/) on github for other drum packages.
+
+Or [search npm for `fluid-music`](https://www.npmjs.com/search?q=fluid-music).
