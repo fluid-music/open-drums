@@ -1,6 +1,6 @@
 {
   "name": "@fluid-music/tr-707",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "tr-707 sample library packaged for fluid-music",
   "main": "index.js",
   "scripts": {
