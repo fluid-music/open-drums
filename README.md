@@ -37,3 +37,35 @@ For more info https://github.com/fluid-music/fluid-music/blob/main/docs/concepts
 * K: long snare
 * p: clap 👏
 * '👏':emoji clap
+
+## Example
+
+We suggest this example to try a score to be rendered with three different drum machines.
+
+```javascript
+const fluid = require('fluid-music');
+const tr707 = require('@fluid-music/tr-707');
+const tr808 = require('@fluid-music/tr-808');
+const tr909 = require('@fluid-music/tr-909');
+
+const session = new fluid.FluidSession({bpm: 180});
+
+const score = {
+  r:      '1 + 2 + 3 + 4 + ',
+  snare: ['    k       k   ', '    k       k   '],
+  kick:  ['B               ', '          B  B  '],
+  hat:   ['h h h h h h h h ', 'h h h h h h h h '],
+}
+
+const tLibraries = [tr707.tLibrary, tr808.tLibrary, tr909.tLibrary];
+
+for (const tLibrary of tLibraries) {
+  session.insertScore(score, {tLibrary});
+}
+
+session.finalize();
+
+session.saveAsReaperFile('drumExamples')
+  .then(() => console.log('done'))
+  .catch((error) => console.log(error));
+```
