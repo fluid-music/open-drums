@@ -29,7 +29,6 @@ Here, we have 4 tracks, the first one is the rhythm string, notated with 'r', an
 
 For more info https://github.com/fluid-music/fluid-music/blob/main/docs/concepts.md#rhythm-string
 
-
 * B: Bass drum - less click, longer sustain
 * b: Bass drum - more click, short sustain
 * h: closed hat

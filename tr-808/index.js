@@ -9,7 +9,7 @@ const params = {
 /**
  * A curated subset of the tr-808 samples
  */
-const kit = {
+const tLibrary = {
   B: copy(audioFiles.TR808WAV.BD['BD0050.WAV'], params),  // less click, longer sustain
   b: copy(audioFiles.TR808WAV.BD['BD1025.WAV'], params),  // more click, short sustain
   h: copy(audioFiles.TR808WAV.CH['CH.WAV'], params),      // closed hat
@@ -41,7 +41,7 @@ const bass = {
 
 module.exports = {
   audioFiles,
-  tLibrary: kit,
-  kit,
+  tLibrary,
+  kit: tLibrary,
   bass,
 }
