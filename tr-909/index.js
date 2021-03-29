@@ -1,4 +1,14 @@
 const { techniques, AudioFileMode } = require('fluid-music')
+
+/**
+ * The original TR-909 drum synthesizer had adjustable parameters for the
+ * different drum sounds. This sample library includes drums that were sampled
+ * with the TR-909 parameters in many different configurations. This nested
+ * JavaScript object contains AudioFile techniques for all the available
+ * TR-909 samples. This object is not a tLibrary, because the object keys are
+ * not single characters. This means that you cannot use it directly as a
+ * tLibrary in a fluid music score, but you can use its properties to create
+ * your own curated drum kits from all the available samples */
 const audioFiles = require('./audio-files')
 
 const copy = techniques.AudioFile.copy
@@ -28,4 +38,5 @@ const tLibrary = {
 module.exports = {
   audioFiles,
   tLibrary,
+  kit: tLibrary,
 }

@@ -7,7 +7,7 @@ const params = {
 }
 
 /**
- * This curated subset of the tr-808 kit
+ * A curated subset of the tr-808 samples
  */
 const tLibrary = {
   B: copy(audioFiles.TR808WAV.BD['BD0050.WAV'], params),  // less click, longer sustain

@@ -1,6 +1,6 @@
 {
   "name": "@fluid-music/tr-808",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tr-808 samples packaged for fluid-music",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "url": "git+https://github.com/fluid-music/open-drums.git"
   },
   "keywords": [
-    "fluid-music"
+    "fluid-music",
+    "drums"
   ],
   "author": "Charles Holbrow",
   "license": "ISC",

@@ -1,17 +1,12 @@
 # Open Drums For Fluid Music
 
-This repo contains a collection of drum sample libraries packaged for the fluid-music system.
+This repo contains a collection of drum sample libraries packaged for the fluid-music system. All packages are available via npm:
 
-## About
+- `npm i` [`@fluid-music/tr-707`](https://www.npmjs.com/package/@fluid-music/tr-707)
+- `npm i` [`@fluid-music/tr-808`](https://www.npmjs.com/package/@fluid-music/tr-808)
+- `npm i` [`@fluid-music/tr-909`](https://www.npmjs.com/package/@fluid-music/tr-909)
 
-This repository holds 3 different npm packages, which you can install with 
-
-```bash
-npm install @fluid-music/tr-707
-npm install @fluid-music/tr-808
-npm install @fluid-music/tr-909
-```
-
+The samples are originally came from [machines.hyperreal.org](http://machines.hyperreal.org/).
 
 ## Notation
 
@@ -19,7 +14,7 @@ In Open Drums, all drum sounds are mapped to one character. Case matters, you ca
 
 ## Example
 
-This is what two measures of snare, kick, and tambourine transcribed with 'fluid-music' look like:
+This is what two measures of snare, kick, and hi-hat transcribed with 'fluid-music' look like:
 
 ```javascript
 const score = {
@@ -34,13 +29,8 @@ Here, we have 4 tracks, the first one is the rhythm string, notated with 'r', an
 
 For more info https://github.com/fluid-music/fluid-music/blob/main/docs/concepts.md#rhythm-string
 
-
-    why onomatopeic?
-    etc.
-
-
-* B: less click, longer sustain
-* b: more click, short sustain
+* B: Bass drum - less click, longer sustain
+* b: Bass drum - more click, short sustain
 * h: closed hat
 * H: open hat
 * k: short snare
