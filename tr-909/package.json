@@ -1,6 +1,6 @@
 {
   "name": "@fluid-music/tr-909",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "free 909 sample library packged for fluid-music",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/fluid-music/open-drums#readme",
   "peerDependencies": {
-    "fluid-music": "^0.9.3"
+    "fluid-music": "^0.9.3||0.10"
   }
 }
